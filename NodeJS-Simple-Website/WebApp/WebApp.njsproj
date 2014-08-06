@@ -32,9 +32,14 @@
   <ItemGroup>
     <Compile Include="server.js" />
     <Content Include="package.json" />
+    <Content Include="public\stylesheets\style.styl" />
     <Content Include="README.md" />
+    <Content Include="views\index.jade" />
+    <Content Include="views\layout.jade" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="public\" />
+    <Folder Include="public\stylesheets\" />
     <Folder Include="views\" />
   </ItemGroup>
   <Import Project="$(VSToolsPath)\Node.js Tools\Microsoft.NodejsTools.targets" />
