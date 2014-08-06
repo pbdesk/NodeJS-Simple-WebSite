@@ -14,7 +14,7 @@ app.set('view engine', 'jade');
 app.use(logger('dev'));
 app.use(stylus.middleware({ src: __dirname + '/public', compile: compile }));
 
-app.use(express.static(__dirname + 'public'));
+app.use(express.static(__dirname + '/public'));
 
 
 app.get('/', function (req, res) {
