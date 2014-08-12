@@ -1,0 +1,10 @@
+{
+  "name": "NodeJS_NTVS",
+  "version": "0.0.0",
+  "description": "NodeJS-NTVS",
+  "main": "server.js",
+  "author": {
+    "name": "pinal_000",
+    "email": ""
+  }
+}
